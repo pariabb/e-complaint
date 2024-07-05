@@ -1,0 +1,17 @@
+@import '_header';
+@import '_complaint';
+@import '_sidebar';
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    main {
+        margin-left: 0;
+    }
+}
