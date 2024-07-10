@@ -1,0 +1,126 @@
+.new-complaint{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+
+    .header{
+        width: 100%;
+        padding: 15px 0px;
+        color:#fff;
+        text-align: center;
+        background-color: #3C6CB4;
+        font-family:  sans-serif;
+        border-radius: 10px 10px 0px 0px ;
+    }
+
+
+    .textarea{
+        height: 230px;
+    }
+
+    .file-add{
+        border-radius: 8px;
+        background-color: #F3F3F3;
+        position: relative;
+        // P{
+        //     margin-bottom: 0;
+        // }
+    }
+
+    .file-add:hover{
+        background-color: #fff;
+
+    }
+
+
+}
+.z-index-9999 {
+    z-index: 9999;
+}
+.trash{
+    font-size: 25px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+
+.last-sec{
+    background-color: #fff;
+    height: auto;
+
+    .add-country{
+        margin-left: 70px;
+        .main-div{
+            width: 60px;
+            height: 60px;
+            border-radius: 5px;
+            border:1px solid rgb(212, 212, 212);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .plus-div{
+                width: 37px;
+                height: 37px;
+                border-radius: 50%;
+                background-color: #000;
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 23px;
+
+            }
+        }
+    }
+
+    .inputs{
+        width: 70px;
+        height: 50px;
+    }
+    .space{
+        font-size: 50px;
+        margin: 18px 30px 0px 30px;
+        color: rgb(218, 213, 213);
+
+    }
+
+    h6{
+        margin-top: 12px;
+    }
+    .header{
+        width: 100%;
+        padding: 5px 0px;
+        color:#fff;
+        text-align: center;
+        background-color: #3C6CB4;
+        font-family:  sans-serif;
+        border-radius:5px ;
+        h4{
+            margin-top: 5px;
+        }
+    }
+}
+
+
+label{
+    font-size: 16px;
+    margin: 0px 0px 12px;
+    font-weight: 500;
+    span{
+        color: red;
+        margin-right: 3px;
+        margin-left: 3px;
+    }
+
+}
+.tel{
+    width:350px ;
+}
+.tel-one{
+    width:80px ;
+}
+
+select[disabled]{
+    border-color: red;
+}

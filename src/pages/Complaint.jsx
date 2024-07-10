@@ -1,5 +1,6 @@
 import React from 'react';
 import { CiSearch } from "react-icons/ci";
+import { Link } from 'react-router-dom';
 
 const Complaint = () => {
     return (
@@ -9,7 +10,7 @@ const Complaint = () => {
                     <div className="col-11">
                         <div className="button-input d-flex flex-row justify-content-between">
                             <div className="buttons">
-                                <button className='btn mx-3'><i className="fa-solid fa-plus"></i> Yeni şikayət yarat</button>
+                                <Link to='/newcomplaint' className='btn mx-3'><i className="fa-solid fa-plus"></i> Yeni şikayət yarat</Link>
                                 <button className='btn mx-3'><i className="fa-solid fa-filter"></i> Ətraflı axtarış</button>
                                 <button className='btn mx-3'><i className="fa-solid fa-circle-info"></i> Təlimat</button>
                             </div>

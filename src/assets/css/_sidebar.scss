@@ -39,64 +39,61 @@
 }
 
 .sidebar .link {
-
     display: flex;
     text-decoration: none;
     margin-left: 5px;
-
-
-
-    .link-btn {
-
-        background-color: #fff;
-        color: #000;
-        border: 0px;
-       display: flex;
-       flex-direction: row !important;
-       
-        border-radius: 5px;
-
-        .icon {
-            width: 40px;
-            height: 50px;
-            padding: 8px 0;
-            align-items: center;
-            border-radius: 5px;
-
-            span {
-                margin-left: 13px;
-                font-size: 20px;
-
-            }
-
-
-        }
-
-        .link_text {
-            width: 200px;
-            height: 50px;
-            background-color: #fff;
-            color: #000;
-            padding: 14px 0;
-            border-radius: 5px;
-            margin-bottom: 4px;
-
-        }
-    }
-
 }
 
+.link-btn {
+    background-color: #fff;
+    color: #000;
+    border: 0px;
+    display: flex;
+    flex-direction: row !important;
+    border-radius: 5px;
+}
 
+.icon {
+    width: 40px;
+    height: 50px;
+    padding: 8px 0;
+    align-items: center;
+    border-radius: 5px;
+}
 
+.icon span {
+    margin-left: 13px;
+    font-size: 20px;
+}
 
-.link-btn:hover {
+.link_text {
+    width: 200px;
+    height: 50px;
+    background-color: #fff;
+    color: #000;
+    padding: 14px 0;
+    border-radius: 5px;
+    margin-bottom: 4px;
+    transition: width 0.1s ease;
+}
+
+.link-btn:hover .link_text{
     background-color: #f4f4f5 !important;
+    color: #000 !important;
 }
-.link_text:hover {
+
+.link-btn:hover .icon{
     background-color: #f4f4f5 !important;
+    color: #000 !important;
 }
-
-
+.link-btn:hover{
+    background-color: #f4f4f5 !important;
+    color: #000 !important;
+}
+// .link_text:hover {
+//     background-color: #f4f4f5 !important;
+//     color: #000 !important;
+// }
 
 .tooltiptext {
     visibility: hidden;
@@ -108,9 +105,19 @@
     position: absolute;
     margin-left: 55px;
     z-index: 1;
-    transition: all .5s;
 }
 
 .link-btn:hover .tooltiptext {
     visibility: visible;
+}
+
+.active .link-btn {
+    background-color: #3C6CB4; 
+    color: white;
+
+}
+.active .link-btn  .link_text{
+    background-color: #3C6CB4; 
+    color: white;
+
 }
