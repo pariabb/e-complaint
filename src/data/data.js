@@ -1,4 +1,4 @@
-export const Complaint = [
+export const ComplaintData = [
     {
       complaint_number: 276,
       field_of_action: "İnternet(GPON, ADSL və s.)",

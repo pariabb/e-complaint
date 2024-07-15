@@ -57,8 +57,9 @@
             border-radius: 5px;
             border:1px solid rgb(212, 212, 212);
             display: flex;
-            justify-content: center;
-            align-items: center;
+            transition: width 0.3s ease;
+            cursor: pointer;
+          
             .plus-div{
                 width: 37px;
                 height: 37px;
@@ -69,9 +70,26 @@
                 justify-content: center;
                 align-items: center;
                 font-size: 23px;
+                margin-left: 8px;
+                margin-top: 8px;
 
             }
         }
+     
+        .main-input {
+            border: none;
+            background: none;
+            flex-grow: 1;
+            outline: none;
+            padding: 10px;
+            font-size: 1rem;
+        }
+        .main-div.expanded {
+            width: 250px;
+        }
+        
+     
+        
     }
 
     .inputs{
@@ -122,5 +140,6 @@ label{
 }
 
 select[disabled]{
-    border-color: red;
+    color: rgb(167, 163, 163);
+    background-color:#fff !important;
 }
