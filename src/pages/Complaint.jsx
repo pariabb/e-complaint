@@ -55,7 +55,7 @@ const Complaint = () => {
                                                 <td>{item.subscriber_code}</td>
                                                 <td>{item.status}</td>
                                                 <td>{item.date}</td>
-                                                <td className='d-flex justify-content-center'><div className="eye"><i className="fa-solid fa-eye"></i></div></td>
+                                                <td className='d-flex justify-content-center'><Link to='/showcomplaint' className="eye"><i className="fa-solid fa-eye"></i></Link></td>
 
 
 
@@ -69,12 +69,12 @@ const Complaint = () => {
                             </table>
                         </div>
                         <div className="bottom-text">
-                            <p className='mt-4'>Göstərilən: 0-0, cəmi 0 (0 səhifə)</p>
-                            <div className="button-arrow">
+                            <p className='mt-4'>Göstərilən: 5-0, cəmi 5 (1 səhifə)</p>
+                            {/* <div className="button-arrow">
                                 <button><i className="fa-solid fa-less-than"></i></button>
                                 <span></span>
                                 <button><i className="fa-solid fa-greater-than"></i></button>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

@@ -5,6 +5,7 @@ import Header from './components/Header'
 import Complaint from './pages/Complaint'
 import Sidebar from './components/Sidebar'
 import NewComplaint from './pages/NewComplaint'
+import ShowComplaint from './pages/ShowComplaint'
 
 const Main = () => {
   return (
@@ -17,6 +18,8 @@ const Main = () => {
         {/* <Route path="/" element={<Home />}></Route> */}
        <Route path="/" element={<Complaint />}></Route> 
        <Route path="/newcomplaint" element={<NewComplaint />}></Route> 
+       <Route path="/showcomplaint" element={<ShowComplaint />}></Route> 
+
 
 
       </Routes>
